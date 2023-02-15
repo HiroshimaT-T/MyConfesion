@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./favicon.png"/>
+    <title>FEELINGS</title>
+</head>
+<body>  
+    <header class="header" id="boxPresentacion">
+        <div class="header_box">
+            <section class="year">
+                <span data-text="1" style="--time:0s;--clr:#f34c4c;"><b>1</b></span>
+                <span data-text="4" style="--time:0.5s;--clr:#f34c4c;"><b>4</b></span>
+                <span data-text="-" style="--time:1s;--clr:#f34c4c;"><b>-</b></span>
+                <span data-text="0" style="--time:1.5s;--clr:#f34c4c;"><b>0</b></span>
+                <span data-text="2" style="--time:2s;--clr:#f34c4c;"><b>2</b></span>
+                <span data-text="-" style="--time:2s;--clr:#f34c4c;"><b>-</b></span>
+                <span data-text="2" style="--time:1.5s;--clr:#f34c4c;"><b>2</b></span>
+                <span data-text="0" style="--time:1s;--clr:#f34c4c;"><b>0</b></span>
+                <span data-text="2" style="--time:0.5s;--clr:#f34c4c;"><b>2</b></span>
+                <span data-text="3" style="--time:0s;--clr:#f34c4c;"><b>3</b></span>
+            </section>
+            <section class="section_presentacion">
+                <div class="presentacion">
+                    <figure class="presentacion-box_img">
+                        <img class="presentacion-img" src="./fox.png" alt="Imagen de zorro">
+                    </figure>
+                    <h2 class="pesentacion-saludo">For my </br> love</h2>
+                    <p class="presentacion-contenido">Buneo antes de comenzar seria bueno activar la musica 
+                        (se encuentra en la derecha de la parte superior) para que le da mas ambiente a esta 
+                        pagina.Por otro lado esta pagina contiene algunos contenidos sobre mi pasado, asi mismo, 
+                        descripbe a detalle mi forma de pensar. Espero que te guste ,me presento soy Daniel Abraham Enriquez Colqui♥.
+                    </p> 
+                    <div class="presentacion-box_button">      
+                        <button class="presentacion-button" id="buttonPresentacion"><span>CONTINUE</span></button> 
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header> 
+    <section class="section_tittle">
+        <h2>ABOUT <span>MY</span></h2>
+        <h4><span>FEELINGS &</span> TRUTH</h4>
+    </section> 
+    <div class="box_container">
+        <div class="box" style="--clr:#fc5959;">
+            <div class="box_content">
+                <div class="box-icon"><ion-icon name="sunny-outline"></ion-icon></div>
+                <div class="box-text">
+                    <h3>Cap1: Pensares</h3>
+                    <p>Desde mi temprana edad comprendí mi propósito, como así mismo mi final, la muerte. Pero ¿cómo es que llegue a tal entendimiento?, 
+                        pues desde que tengo razón mis padres ...</p>
+                    <a id="buttonBlog1">Read More</a>
+                </div>
+           </div>
+        </div>
+        <div class="box" style="--clr:#fc5959;">
+            <div class="box_content">
+                 <div class="box-icon"><ion-icon name="female-outline"></ion-icon></div>
+                 <div class="box-text">
+                     <h3>Cap2: Proposito</h3>
+                     <p>Todo esto trajo consigo a un chico que fingía ser feliz, a un chico que había madurado en cierto aspecto que las personas normales
+                         no se darían cuenta. Comprendí que la ... </p>
+                     <a id="buttonBlog2">Read More</a>
+                 </div>
+            </div>
+        </div>
+        <div class="box" style="--clr:#fc5959;">
+            <div class="box_content">
+                <div class="box-icon"><ion-icon name="heart-half-outline"></ion-icon></div>
+                <div class="box-text">
+                    <h3>Cap3: Amor</h3>
+                    <p>Creciendo más, empecé a desear a alguien, no solo porque querer tener un romance, solo deseaba tener a alguien porque quería que me 
+                        diera un abrazo, quería que ...</p>
+                    <a id="buttonBlog3">Read More</a>
+                </div>
+           </div>
+    </div>
+    </div>
+    <main class="main"> 
+    </main>
+    <footer class="container_box-music">
+        <audio loop  controls id="music" style="display: none;">
+            <source src="./Kevin Kaarl - Vámonos a Marte [Letra].mp3" type="audio/mp3" > 
+        </audio>
+        <div class="box_music" id="buttonPlay">
+            <ion-icon name="play-outline" class="music" id="iconPlay"></ion-icon>
+            <ion-icon name="pause-outline" class="music" style="display: none;" id="iconPause"></ion-icon>
+        </div>
+        <div class="box_music" id="buttonVolumen">
+            <ion-icon name="volume-high-outline" class="music" id="iconVolumen"></ion-icon>
+            <ion-icon name="volume-mute-outline" class="music" style="display: none;" id="iconMute"></ion-icon>
+        </div>
+    </footer>
+    <section class="section_box-button-declaration" id="buttonPresentacionFinalBoxexe">
+        <button class="section_button-declaration" id="buttonPresentacionFinalexe"><span>CONTINUE</span></button>
+    </section> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
