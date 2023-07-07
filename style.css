@@ -1010,7 +1010,7 @@ g-box_button label input {
 }
 .box_paragraph p {
     /* width: 50rem; */
-    max-width: 750px;
+    /* max-width: 750px; */
 }
 .box_paragraph ion-icon {
     color: var(--clr1);
