@@ -1008,10 +1008,10 @@ g-box_button label input {
     flex-direction: column;
     /* padding-top: 2.2rem; */
 }
-.box_paragraph p {
-    /* width: 50rem; */
-    /* max-width: 750px; */
-}
+/* .box_paragraph p {
+    width: 50rem;
+    max-width: 750px; 
+} */
 .box_paragraph ion-icon {
     color: var(--clr1);
     animation: animateEscaleHeart 1.5s infinite linear ;
